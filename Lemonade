@@ -13,7 +13,7 @@ public class Lemonade{
         if (lemonade < 0) //Won't read 0 unless you push enter
         System.out.println("Fatal Error, Number below zero resulting in immediate termination of subject. Please, never try again.");
         else System.out.println("The total cost is $" + total);
-        if (lemonade >= 100) System.out.println("Are You sure about that? Thats gonna make you dirt poor!");
+        if (lemonade >= 10000) System.out.println("Are You sure about that? Thats gonna make you dirt poor!");
      }
 
 }

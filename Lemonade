@@ -1,16 +1,32 @@
 import java.util.Scanner;
 
+
+
 public class Lemonade{
 
+
+
      public static void main(String []args){
+
         
+
         Scanner Lolipop = new Scanner(System.in);
+
         System.out.println("How many glasses of EXOTIC Lemonade do you want?");
+
         int lemonade = Lolipop.nextInt();
+
         double cost = 299.99;
+
         double total = lemonade * cost;
+
         if (lemonade < 0) //Won't read 0 unless you push enter
+
         System.out.println("Fatal Error, Number below zero resulting in immediate termination of subject. Please, never try again.");
+
         else System.out.println("The total cost is $" + total);
+        
+        if (lemonade >= 100) System.out.println("Are You sure about that? Thats gonna make you dirt poor!");
      }
+
 }
